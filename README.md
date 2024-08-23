@@ -10,11 +10,10 @@
             -- the area under the flag ceremony and speeches has been redesigned as a gallery.
 
 
-            -->>
-            https://github.com/user-attachments/assets/f58685f6-f145-4b8a-9f3f-fc40cc344324
 
+-->> Anasayfa
+ ![indepence day anasayfa](https://github.com/user-attachments/assets/f58685f6-f145-4b8a-9f3f-fc40cc344324)
 
-
-            -->>
-            https://github.com/user-attachments/assets/aeb00da5-4cbc-42ff-a2ab-2320380c99b4
-          
+-->> Tarihçe
+![indepence day tarihçe](https://github.com/user-attachments/assets/aeb00da5-4cbc-42ff-a2ab-2320380c99b4)
+           
