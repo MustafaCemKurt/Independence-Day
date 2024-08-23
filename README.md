@@ -1,14 +1,13 @@
 
  -- In this repo I adapted a ready-made national day website from a source for April 23rd National Sovereignty and Children's Day using Cursor.AI. 
-      -- My goal was to grasp AI capabilities and improve myself in the correct use of AI.
-      -- Revize işlemleri yaklaşık 1.5 saat sürdü . 
-          -- Revision took about 1.5 hours. 
-          The operations done: 
-            -- Images have been revised. 
-            -- Revised colors and text in the navbar. 
-            -- Colored parts of the page were revised to match the flag colors. 
-            -- the area under the flag ceremony and speeches has been redesigned as a gallery.
-
+    -- My goal was to grasp AI capabilities and improve myself in the correct use of AI.
+     -- Revize işlemleri yaklaşık 1.5 saat sürdü . 
+        -- Revision took about 1.5 hours. 
+         The operations done: 
+         -- Images have been revised. 
+         -- Revised colors and text in the navbar. 
+         -- Colored parts of the page were revised to match the flag colors. 
+         -- the area under the flag ceremony and speeches has been redesigned as a gallery.
 
 
 -->> Anasayfa
