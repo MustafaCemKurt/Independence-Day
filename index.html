@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>23 Nisan Ulusal Egemenlik ve Çocuk Bayramı</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet'>
+    <style>
+        .hero-image img {
+            margin: 0 20px; /* Yanlardan 20px boşluk ekler */
+            max-width: calc(100% - 40px); /* Toplamda 40px boşluk bırakır */
+        }
+        .slider-container {
+            position: relative;
+            max-width: 600px;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .slider {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .slide {
+            min-width: 100%;
+            box-sizing: border-box;
+            display: none; /* Başlangıçta tüm slaytları gizle */
+        }
+
+        .slide.active {
+            display: block; /* Aktif slaytı göster */
+        }
+
+        .prev, .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 2rem;
+            cursor: pointer;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            z-index: 1;
+            font-size: 1.5rem; /* Okların boyutunu küçült */
+        }
+
+        .prev {
+            left: 10px; /* Resim üzerinde küçük bir şekilde konumlandır */
+        }
+
+        .next {
+            right: 10px; /* Resim üzerinde küçük bir şekilde konumlandır */
+        }
+
+        .gallery-container {
+            padding: 0 20px;
+        }
+
+        .gallery-row {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .gallery-item {
+            margin: 0 10px;
+        }
+
+        .gallery-item img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <section id="home">
+        <div class="flex-container">
+            <nav id="navbar">
+                <a href="#"><img class="logo" src="assets\zimg.png" alt="" style="width: 100px; height: auto;"></a>
+                <ul id="navigation">
+                    <li class="Home"><a href="#home">AnaSayfa</a></li>
+                    <li class="Path"><a href="#path">Tarihçe</a></li>
+                    <li class="Media"><a href="#media">Galeri</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="hero">
+            <div class="hero-image">
+                <img src="assets/img3.png" alt="23 Nisan Ulusal Egemenlik ve Çocuk Bayramı">
+            </div>
+        </div>
+    </section>
+    <section id="path">
+        <div id="ourpath">
+            <h1 id="independence">Ulusal Egemenlik Yolu</h1>
+            <h2>Tarihçe</h2>
+            <h4 id="historypara">
+                <font color="FF0000">23 Nisan 1920</font> tarihinde Türkiye Büyük Millet Meclisi'nin açılmasıyla, Türk milletinin egemenliği ilan edilmiştir. Bu tarih, Türkiye Cumhuriyeti'nin temellerinin atıldığı ve ulusal egemenliğin simgesi olarak kabul edilen önemli bir dönüm noktasıdır. <br><br>
+                Mustafa Kemal Atatürk, bu önemli günü çocuklara armağan ederek, geleceğin teminatı olan çocuklara verdiği önemi göstermiştir. <br><br>
+                23 Nisan, her yıl coşkuyla kutlanan ve çocukların bayramı olarak kabul edilen bir gündür. Bu bayram, dünya çocuklarının barış ve kardeşlik içinde yaşamasını temenni eden bir anlayışla kutlanmaktadır. <br><br>
+            </h4>
+            <h2>23 Nisan Nedir? Neden Kutlanır?</h2>
+            <h4 id="whatispara">
+                <font color="FF0000">23 Nisan Ulusal Egemenlik ve Çocuk Bayramı</font>, Türkiye Cumhuriyeti'nin kurucusu Mustafa Kemal Atatürk tarafından çocuklara armağan edilmiştir. Bu bayram, Türkiye'de ve dünyada çocukların barış, sevgi ve kardeşlik içinde yaşamasını temenni eden bir anlayışla kutlanmaktadır. <br><br>
+                23 Nisan, Türkiye Büyük Millet Meclisi'nin açılışının yıldönümü olarak kutlanır ve ulusal egemenliğin simgesi olarak kabul edilir. <br><br>
+            </h4>
+            <h2>23 Nisan Nasıl Kutlanır?</h2>
+            <h4 id="howispara">
+                <font color="FF0000">23 Nisan</font>, Türkiye'de ve dünyada çocukların katılımıyla çeşitli etkinliklerle kutlanır. <br><br>
+                Türkiye'de okullarda ve meydanlarda düzenlenen törenlerle, çocuklar şiirler okur, dans gösterileri yapar ve çeşitli oyunlar oynar. <br><br>
+                Ayrıca, her yıl farklı ülkelerden çocuklar Türkiye'ye davet edilerek, kültürel değişim ve barış mesajları verilir. <br><br>
+            </h4>
+            <center><img src="assets/gimg.jpg" alt="" class="rounded-image"></center>
+            <br><br>
+            <br><br>
+        </div>
+    </section>
+    <section id="media">
+        <h2>Galeri</h2>
+        <div class="gallery-container">
+            <div class="gallery-row">
+                <div class="gallery-item">
+                    <img src="assets/tbmm1.jpg" alt="TBMM 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/tbmm3.jpg" alt="TBMM 3">
+                </div>
+            </div>
+            <div class="gallery-row">
+                <div class="gallery-item">
+                    <img src="assets/ataturk.jpg" alt="Atatürk">
+                </div>
+            </div>
+            <div class="gallery-row">
+                <div class="gallery-item">
+                    <img src="assets/kutlama.jpg" alt="Kutlama">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/kutlama2.jpg" alt="Kutlama 2">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        var navbar = document.getElementById("navbar")
+        var menu = document.getElementById("navigation")
+
+        window.onscroll = function(){
+            if(window.pageYOffset >= menu.offsetTop){
+                navbar.classList.add("sticky");
+            }
+            else{
+                navbar.classList.remove("sticky");
+            }
+        }
+
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+
+        function changeSlide(direction) {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (currentSlide + direction + slides.length) % slides.length;
+            slides[currentSlide].classList.add('active');
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            slides[currentSlide].classList.add('active');
+        });
+    </script>
+    <footer class="footer" style="background-color: #ababab; text-align: center;">
+        <p>&copy; 2024 Türkiye Cumhuriyeti. Tüm hakları saklıdır.</p>
+        <p>Mustafa CK tarafından tasarlanmış ve geliştirilmiştir.</p>
+    </footer>
+</body>
+</html>
