@@ -31,9 +31,9 @@ The revision process took approximately **1.5 hours**.
 1. Clone the repository:
 
 
--->> Anasayfa
+--->> Anasayfa
  ![indepence day anasayfa](https://github.com/user-attachments/assets/f58685f6-f145-4b8a-9f3f-fc40cc344324)
 
--->> Tarihçe
+--->> Tarihçe
 ![indepence day tarihçe](https://github.com/user-attachments/assets/aeb00da5-4cbc-42ff-a2ab-2320380c99b4)
            
